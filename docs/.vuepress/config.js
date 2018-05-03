@@ -7,7 +7,8 @@ module.exports = {
   themeConfig: {
     repo: 'JinboMa/documents',
     docsDir: 'docs',
-    editLinkText: '在github上修改本页',
+    editLinks: true,
+    editLinkText: '在github上编辑本页',
     // 右上角搜索右边
     nav: [
       { text: '前端', link: '/front-end/' },
