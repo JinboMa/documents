@@ -1,7 +1,8 @@
 let sidebar = require('./sidebar')
 module.exports = {
-  title: 'JinboMa',
-  description: '技术文档分享',
+  // base: '/documents/',
+  title: 'Forgiver',
+  description: 'A front-end enginer.',
   port: '8000',
   evergreen: true,
   themeConfig: {
@@ -11,6 +12,7 @@ module.exports = {
     editLinkText: '在github上编辑本页',
     // 右上角搜索右边
     nav: [
+      { text: '日记', link: '/diary/' },
       { text: '前端', link: '/front-end/' },
       { text: '后端', link: '/back-end/' },
       { text: '服务', link: '/server/' },
