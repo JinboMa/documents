@@ -14,10 +14,11 @@ module.exports = {
     nav: [
       { text: '日记', link: '/diary/' },
       { text: '前端', link: '/front-end/' },
-      { text: '后端', link: '/back-end/' },
-      { text: '服务', link: '/server/' },
-      { text: '数据', link: '/data-base/' },
-      { text: '设计', link: '/design/' }
+      { text: '分享', link: '/share/' }
+      // { text: '后端', link: '/back-end/' },
+      // { text: '服务', link: '/server/' },
+      // { text: '数据', link: '/data-base/' },
+      // { text: '设计', link: '/design/' }
     ],
     sidebar
   }
