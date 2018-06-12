@@ -4,7 +4,8 @@ let sidebar = [{
   collapsable: false,
   children: [
     '',
-    'vscode'
+    'vscode-use',
+    'vscode-plugins'
   ]
 }]
 
