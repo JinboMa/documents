@@ -271,9 +271,9 @@ vue 中的配置：
 
 优点：更换电脑时不需要重新设置 vscode 的设置
 
-推荐配置：
+使用步骤：github -> settings -> Developer settings -> Personal access tokens -> Generate new token -> 输入 Token description -> 勾选 gist 项 -> 复制 hash 值 -> vscode 中 `command + shift + P` -> 输入 `Sync：Update / Upload Settings`
 
-8. VS Live Share ***
+9. VS Live Share ***
 
 说明：实时的代码分享
 
