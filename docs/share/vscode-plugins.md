@@ -4,6 +4,19 @@ sidebarDepth: 2
 
 # vscode 插件
 
+## 已集成到 vscode 的插件
+
+目前很多插件已经被 vscode 本身集成，所以不需要安装这些插件。
+
+同时安装这部分插件可能会对 vscode 本身功能有影响。
+
+以下是 vscode 目前已集成的插件列表：
+
+- HTML Snippets
+- Npm Intellisense
+- Document this
+- ......
+
 ## css 相关插件
 
 1. Beautify
