@@ -6,7 +6,9 @@ sidebarDepth: 2
 
 ## css 相关插件
 
-1. Beautify ***
+1. Beautify
+
+推荐：:star::star::star:
 
 说明：css 格式化插件，用于格式化 css/sass/scss/less 内容
 
@@ -27,7 +29,9 @@ sidebarDepth: 2
 
 ## js 相关插件
 
-1. ESLint ***
+1. ESLint
+
+推荐：:star::star::star:
 
 说明：eslint 在 vscode 中的插件
 
@@ -59,7 +63,9 @@ sidebarDepth: 2
 
 ## html 相关插件
 
-1. Auto Rename Tag ***
+1. Auto Rename Tag
+
+推荐：:star::star::star:
 
 说明：自动重命名标签名
 
@@ -82,7 +88,9 @@ sidebarDepth: 2
 
 ## vue 相关插件
 
-1. Vetur ***
+1. Vetur
+
+推荐：:star::star::star:
 
 说明：Vue 相关功能全部支持，目前为止在 vscode 中最好用的 vue 插件
 
@@ -103,7 +111,9 @@ sidebarDepth: 2
 
 ## git 相关插件
 
-1. Git History ***
+1. Git History
+
+推荐：:star::star::star:
 
 说明：查看 git log，历史文件，比较分支或者 commit 的插件
 
@@ -113,7 +123,9 @@ sidebarDepth: 2
 
 缺点：暂无
 
-2. GitLens ***
+2. GitLens
+
+推荐：:star::star::star:
 
 说明：在 vscode 代码中显示 git 记录
 
@@ -136,6 +148,8 @@ sidebarDepth: 2
 
 1. open in browser
 
+推荐：:star:
+
 说明：在浏览器中打开当前文件
 
 支持：直接在浏览器中打开当前文件
@@ -146,7 +160,9 @@ sidebarDepth: 2
 
 使用方法：`alt + B` 或者 `command + shift + P` 然后输入 `Open in Default Browser`
 
-2. Path Intellisense ***
+2. Path Intellisense
+
+推荐：:star::star::star:
 
 说明：自动补全文件路径
 
@@ -164,7 +180,9 @@ sidebarDepth: 2
 },
 ```
 
-3. Debugger for Chrome ***
+3. Debugger for Chrome
+
+推荐：:star::star::star:
 
 说明：在 vscode 中 debug 浏览器端的代码
 
@@ -197,7 +215,9 @@ vue 中的配置：
 }
 ```
 
-4. Bracket Pair Colorizer ***
+4. Bracket Pair Colorizer
+
+推荐：:star::star::star:
 
 说明：一个使括号更鲜艳的插件
 
@@ -207,7 +227,9 @@ vue 中的配置：
 
 缺点：只支持 js 相关的文件
 
-5. Project Manager ***
+5. Project Manager
+
+推荐：:star::star::star:
 
 说明：项目切换插件
 
@@ -216,6 +238,8 @@ vue 中的配置：
 优点：可使切换项目更方便
 
 6. ftp-sync
+
+推荐：:star:
 
 说明：该扩展允许您轻松地将本地工作区（项目文件）与FTP服务器同步
 
@@ -257,6 +281,8 @@ vue 中的配置：
 
 7. TODO Highlight
 
+推荐：:star::star:
+
 说明：在代码中添加 todo 之后，todo 显示高亮
 
 支持：支持设置自定义关键字，高亮颜色自定义
@@ -264,6 +290,8 @@ vue 中的配置：
 优点：可以在代码中加入 todo 为避免忘记未完成的代码
 
 8. Settings Sync
+
+推荐：:star::star::star:
 
 说明：vscode 代码设置同步
 
@@ -273,7 +301,9 @@ vue 中的配置：
 
 使用步骤：github -> settings -> Developer settings -> Personal access tokens -> Generate new token -> 输入 Token description -> 勾选 gist 项 -> 复制 hash 值 -> vscode 中 `command + shift + P` -> 输入 `Sync：Update / Upload Settings`
 
-9. VS Live Share ***
+9. VS Live Share
+
+推荐：:star::star::star:
 
 说明：实时的代码分享
 
