@@ -43,3 +43,39 @@ sidebarDepth: 2
 注意：因为英文关键字与无关键字功能重复，所以<b>英文关键字后都需要加一个空格</b>才能生效！！！（例如：debug, task, 等）
 
 以上只是其中一部分常用功能，如果想了解更多，使用 `?` 查看
+
+## 利用TypeScript的高级类型检查 Type Checking
+
+操作步骤：（下面👇提供三种供参考的使用方式）
+  - 在需要运行该高级类型检查的js文件，第一行加入`// @ts-nocheck`代码
+    ```js
+    // @ts-check
+    let easy = 'abc'
+    easy = 123 // Error: Type '123' is not assignable to type 'string'
+    ```
+  - 在工作区或者用户设置中增加`"javascript.implicitProjectConfig.checkJs": true`；不想使用类型检查的文件在第一行加入`// @ts-nocheck`，或者再细化可以直接在错误的`那一行的上一行`增加`// @ts-ignore`
+    ```js
+    // @ts-nocheck
+    let easy = 'abc'
+    easy = 123 // no error
+    ```
+  
+    ```js
+    let easy = 'abc'
+    // @ts-ignore
+    easy = 123 // no error
+    ```
+  - 根目录使用jsconfig.json
+    ```json
+    {
+    "compilerOptions": {
+        "checkJs": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+    }
+    ```
+
+优点：不需要额外插件，有详细问题输出和问题提示，并且`右键`还有快速修复的快捷方式，包括添加缺少的导入和添加缺少的属性。
