@@ -1,10 +1,11 @@
-let path = '/share/'
+let path = '/page/'
 let sidebar = [{
-  title: '分享',
+  title: '文章',
   collapsable: false,
   children: [
     '',
-    'vscode'
+    'vscode-use',
+    'vscode-plugins'
   ]
 }]
 

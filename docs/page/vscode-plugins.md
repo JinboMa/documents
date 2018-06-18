@@ -4,22 +4,7 @@ sidebarDepth: 2
 
 # vscode 插件
 
-## 已集成到 vscode 的插件
-
-目前很多插件已经被 vscode 本身集成，所以不需要安装这些插件。
-
-同时安装这部分插件可能会对 vscode 本身功能有影响。
-
-以下是 vscode 目前已集成的插件列表：
-
-- HTML Snippets
-- Npm Intellisense
-- Document this
-- ......
-
-## css 相关插件
-
-1. Beautify
+## Beautify
 
 推荐：:star::star::star:
 
@@ -29,7 +14,7 @@ sidebarDepth: 2
 
 优点：简单便捷，配置项不复杂
 
-缺点：无 css 提示功能
+缺点：不支持 stylus
 
 推荐配置：
 
@@ -40,9 +25,7 @@ sidebarDepth: 2
 }
 ```
 
-## js 相关插件
-
-1. ESLint
+## ESLint
 
 推荐：:star::star::star:
 
@@ -74,9 +57,7 @@ sidebarDepth: 2
 // 以上的配置基本可以支持所有 js 相关的 eslint 检测 & 修复
 ```
 
-## html 相关插件
-
-1. Auto Rename Tag
+## Auto Rename Tag
 
 推荐：:star::star::star:
 
@@ -99,9 +80,9 @@ sidebarDepth: 2
 ]
 ```
 
-## vue 相关插件
+![示例](./images/auto-rename.gif)
 
-1. Vetur
+## Vetur
 
 推荐：:star::star::star:
 
@@ -122,9 +103,7 @@ sidebarDepth: 2
 // 因无法对 eslint 规则进行检测，所以关掉这些项
 ```
 
-## git 相关插件
-
-1. Git History
+## Git History
 
 推荐：:star::star::star:
 
@@ -136,7 +115,7 @@ sidebarDepth: 2
 
 缺点：暂无
 
-2. GitLens
+## GitLens
 
 推荐：:star::star::star:
 
@@ -157,9 +136,7 @@ sidebarDepth: 2
 },
 ```
 
-## 其他
-
-1. open in browser
+## open in browser
 
 推荐：:star:
 
@@ -173,7 +150,7 @@ sidebarDepth: 2
 
 使用方法：`alt + B` 或者 `command + shift + P` 然后输入 `Open in Default Browser`
 
-2. Path Intellisense
+## Path Intellisense
 
 推荐：:star::star::star:
 
@@ -193,7 +170,7 @@ sidebarDepth: 2
 },
 ```
 
-3. Debugger for Chrome
+## Debugger for Chrome
 
 推荐：:star::star::star:
 
@@ -228,7 +205,7 @@ vue 中的配置：
 }
 ```
 
-4. Bracket Pair Colorizer
+## Bracket Pair Colorizer
 
 推荐：:star::star::star:
 
@@ -240,7 +217,7 @@ vue 中的配置：
 
 缺点：只支持 js 相关的文件
 
-5. Project Manager
+## Project Manager
 
 推荐：:star::star::star:
 
@@ -250,7 +227,18 @@ vue 中的配置：
 
 优点：可使切换项目更方便
 
-6. ftp-sync
+配置示例：
+
+```json
+{
+  "name": "Works",
+  "rootPath": "/Users/jinboma/Works",
+  "paths": [],
+  "group": ""
+}
+```
+
+## ftp-sync
 
 推荐：:star:
 
@@ -292,7 +280,7 @@ vue 中的配置：
 }
 ```
 
-7. TODO Highlight
+## TODO Highlight
 
 推荐：:star::star:
 
@@ -302,7 +290,9 @@ vue 中的配置：
 
 优点：可以在代码中加入 todo 为避免忘记未完成的代码
 
-8. Settings Sync
+![示例](./images/toggle-highlight.gif)
+
+## Settings Sync
 
 推荐：:star::star::star:
 
@@ -314,7 +304,7 @@ vue 中的配置：
 
 使用步骤：github -> settings -> Developer settings -> Personal access tokens -> Generate new token -> 输入 Token description -> 勾选 gist 项 -> 复制 hash 值 -> vscode 中 `command + shift + P` -> 输入 `Sync：Update / Upload Settings`
 
-9. VS Live Share
+## VS Live Share
 
 推荐：:star::star::star:
 
@@ -325,3 +315,26 @@ vue 中的配置：
 优点：在多人协作编码中，可以避免代码冲突等多人合作问题
 
 缺点：目前不稳定，容易断掉链接
+
+## 已集成到 vscode 的插件
+
+目前很多插件已经被 vscode 本身集成，所以不需要安装这些插件。
+
+同时安装这部分插件可能会对 vscode 本身功能有影响。
+
+以下是 vscode 目前已集成的插件列表：
+
+- HTML Snippets
+- Npm Intellisense
+- Document this
+- ......
+
+## 为什么不推荐其他插件
+
+因为各种原因，可能是因为功能重复，也有可能是因为没有用，或者也可能是性能问题等等。
+
+但是仍存在一些好用的插件没有被总结到当前文章中，可以直接点击下方`在 github 上编辑本页`提交 merge request 来增加其他插件。
+
+## 相关链接
+
+[vscode 使用技巧](./vscode-use.html)

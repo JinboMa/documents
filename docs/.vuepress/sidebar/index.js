@@ -5,6 +5,7 @@ const server = require('./server')
 const dataBase = require('./data-base')
 const diary = require('./diary')
 const share = require('./share')
+const page = require('./page')
 const sidebar = {
   ...frontEnd,
   ...backEnd,
@@ -12,7 +13,8 @@ const sidebar = {
   ...dataBase,
   ...design,
   ...diary,
-  ...share
+  ...share,
+  ...page
 }
 
 module.exports = sidebar

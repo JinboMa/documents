@@ -2,6 +2,4 @@
 
 > 一些个人的分享～
 
-[vscode 使用技巧](./vscode-use.html)
-
-[vscode 插件](./vscode-plugins.html)
+[vscode 的正确使用方式](./vscode.html)

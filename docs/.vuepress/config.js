@@ -13,7 +13,8 @@ module.exports = {
     // 右上角搜索右边
     nav: [
       { text: '日记', link: '/diary/' },
-      { text: '前端', link: '/front-end/' },
+      // { text: '前端', link: '/front-end/' },
+      { text: '文章', link: '/page/' },
       { text: '分享', link: '/share/' }
       // { text: '后端', link: '/back-end/' },
       // { text: '服务', link: '/server/' },
