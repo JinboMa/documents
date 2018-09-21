@@ -5,7 +5,8 @@ let sidebar = [{
   children: [
     '',
     'vscode-use',
-    'vscode-plugins'
+    'vscode-plugins',
+    'jest'
   ]
 }]
 
