@@ -153,7 +153,7 @@ global.wx = {
 
 ## expect(value). 的使用
 
-1. `.toBe()`: 它调用 `Object.is` 比较值，这比通过 `===` 严格相等运算符更好。
+1. `.toBe()`: 它调用 `Object.is()` 比较值，这比通过 `===` 严格相等运算符更好。[关于Object.is()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
 
 ```js
 test('toBe', () => {
